@@ -1,0 +1,41 @@
+/* main */
+
+@font-face{
+    font-family: "Myriad-Pro";
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Myriad-Pro';
+  background-image: url("bg.png");
+  background-size: cover;
+	font-family: Myriad Pro;
+}
+
+  /* Buttons on main page */
+  .myButton {
+  	background:linear-gradient(to bottom, #da57de 5%, #05ccff 100%);
+  	background-color:#da57de;
+  	border-radius:6px;
+  	border:1px solid #05ccff;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+  	font-family:Arial;
+  	font-size:30px;
+  	font-weight:bold;
+  	padding:6px 24px;
+  	text-decoration:none;
+  	text-shadow:0px 1px 0px #528ecc;
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2), 0 8px 22px 0 rgba(0,0,0,0.19);
+  }
+  .myButton:hover {
+  	background:linear-gradient(to bottom, #da57de 5%, #05ccff 100%);
+  	background-color:#da57de;
+  }
+  .myButton:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
